@@ -3,10 +3,10 @@
     rosshutdown 
     clc
     clear
-    rosinit('192.168.213.128'); % This is Tommy's URL for the Arm Gazebo
-    % Change to your URL as needed 
-    
-p1 = 0;
+    rosinit('10.51.63.29'); % This is Graham's URL for the Arm Gazebo    
+    % Change to your URL as needed     
+
+    p1 = 0;
 moveGrip(p1)
 pause(1);
 
